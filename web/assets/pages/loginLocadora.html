@@ -3,36 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Locadora DriveSmart</title>
+    <title>Login Locadora Drive Smart</title>
 
-     <!-- css -->
-     <link rel="stylesheet" href="../css/login.css">
+        <!-- css -->
+        <link rel="stylesheet" href="../css/login.css">
 
-     <!-- bootstrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 <body>
     <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 offset-md-4">
                     <form action="" class="border border-danger rounded p-3">
+                        <p class="display-6 text-center text-danger">Login Locadora</p>
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
+                            <label for="email" class="form-label h4">Email</label>
                             <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
                         </div>
                         <div class="mb-3">
-                            <label for="senha" class="form-label">Senha</label>
+                            <label for="senha" class="form-label h4">Senha</label>
                             <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha">
                         </div>
+
+                        <div class="d-flex container-fluid mb-3 gap-5 justify-content-around">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Continuar Logado
+                                </label>
+                              </div>
+                            <a href="" class="link-danger">Esqueci minha senha</a>
+                        </div>
+
                         <div class="mb-3">
-                            <a class="btn btn-danger" href="" role="button">Entrar</a>
+                            <a class="btn btn-danger container-fluid" href="" role="button">Entrar</a>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <hr class="w-100">
+                        </div>
+
+                        <div class="d-flex justify-content-around gap-3">
+                            <a href="" class="btn btn-danger"><i class="fab fa-google"></i> Entrar com Google</a>
+                            <a href="" class="btn btn-primary"><i class="fab fa-facebook"></i> Entrar com Facebook</a>
+                        </div>
+
+                        <div class="d-flex justify-content-center mt-3">
+                            <a href="" class="link-danger">Não tem uma conta? Cadastre-se</a>
                         </div>
                     </form>
-                </div>
-            </div>
-        </div>
     </section>
+
+    <script src="https://kit.fontawesome.com/2ade025446.js" crossorigin="anonymous"></script>
 </body>
 </html>
