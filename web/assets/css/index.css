@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    height: calc(100vh - 56px);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    display: flex;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3), url("banner.jpg"));
+}
+
