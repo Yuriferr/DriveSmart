@@ -11,7 +11,10 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</head>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
 <body>
     <header class="container-fluid bg-danger">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
@@ -52,7 +55,7 @@
     <p class="text-light z-2 w-50 ms-5 fs-4">Você precisa de um carro para viajar, trabalhar ou se divertir? Não perca tempo procurando em sites diferentes, comparando preços e condições, fazendo reservas complicadas. Com o drivesmart, você encontra o carro ideal para a sua necessidade em poucos minutos, com segurança, praticidade e economia.</p>
     </section>
 
-    <section class="container-fluid bg-light py-5">
+    <section class="container-fluid py-5">
       <p class="text-center fs-5 mb-4 mx-3">Com o drivesmart, você tem acesso a milhares de opções de carros, desde os mais econômicos até os mais luxuosos. Você pode escolher o modelo, a cor, o tipo de combustível, os acessórios e os serviços adicionais que quiser. Você também pode cancelar ou alterar a sua reserva sem custo até 24 horas antes da retirada do carro.</p>
 
       <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mx-3">
@@ -62,11 +65,11 @@
             <div class="card-body">
               <h5 class="card-title">Carro 1</h5>
               <div class="d-flex">
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star-half-alt text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
               </div>
             </div>
           </div>
@@ -77,11 +80,11 @@
             <div class="card-body">
               <h5 class="card-title">Carro 2</h5>
               <div class="d-flex">
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star-half-alt text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
               </div>
             </div>
           </div>
@@ -92,27 +95,62 @@
             <div class="card-body">
               <h5 class="card-title">Carro 3</h5>
               <div class="d-flex">
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star text-warning"></i>
-                <i class="fas fa-star-half-alt text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
               </div>
             </div>
           </div>
         </div>
     </section>
 
-    <section class="d-flex container-fluid bg-danger py-3 align-items-center">
+    <section class="d-flex container-fluid bg-danger p-3 align-items-center">
       <p class="text-light fs-4">O drivesmart é um site que conecta você com as melhores locadoras de carros do Brasil e do mundo. Você pode pesquisar, comparar e reservar o seu carro online, sem burocracia e sem taxas extras.</p>
 
       <img src="./assets/images/locadora.jpg" class="img-fluid rounded  w-50 " alt="">
     </section>
 
-    <section class="container-fluid bg-light py-5">
+    <section class="container-fluid py-5 px-3">
+
+
+      <div class="row px-5">
+        <i class="bi bi-controller col-6 text-danger d-flex align-items-center justify-content-center display-1"></i>
+
+        <div class="col-6">
+          <p class="fs-3"><strong>Sistema de gamificação</strong></p>
+          <p class="w-50">A cada reserva que você faz, você ganha pontos que podem ser trocados por prêmios.</p>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="row px-5">
+        <div class="col-6 d-flex flex-column align-items-end">
+          <p class="text-end fs-3"><strong>Serviço de personalização</strong></p>
+          <p class="text-end w-50">Permite escolher e customizar o carro que você quiser alugar.</p>
+        </div>
+
+        <i class="bi bi-gear-fill col-6 text-danger d-flex align-items-center justify-content-center display-1"></i>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="row px-5">
+        <i class="custonIcons bi bi-stars col-6 text-danger d-flex align-items-center justify-content-center display-1"></i>
+
+        <div class="col-6">
+          <p class="fs-3"><strong>Serviço vip</strong></p>
+          <p class="w-50">Um serviço de entrega e retirada que leva o carro até você e o busca onde você estiver.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid py-5">
       <p class="text-center mx-3 fs-4 mb-5">Você ainda conta com o suporte da nossa equipe de atendimento, que está sempre pronta para resolver qualquer dúvida ou problema.</p>
 
-      <div class="row container-fluid mx-3">
+      <div class="row container-fluid px-3">
         <div class="col-4 d-flex flex-column align-items-center justify-content-center gap-3">
           <img src="./assets/images/lucas.png" class="img-fluid rounded-circle">
           <p class="text-center fs-4">Lucas Mendes</p>
@@ -129,8 +167,18 @@
         </div>
       </div>
     </section>
-    
 
-    <script src="https://kit.fontawesome.com/2ade025446.js" crossorigin="anonymous"></script>
+    <footer class="container-fluid row bg-dark d-flex align-items-center justify-content-around p-5">
+      <div class="col-10">
+        <p class="text-light fs-5 w-50">Faça a sua reserva hoje mesmo e aproveite as nossas ofertas especiais. Drivesmart: o jeito inteligente de alugar um carro.</p>
+      </div>
+
+      <div class="col-2">
+        <div class="d-flex justify-content-around gap-3">
+          <i class="bi bi-facebook text-danger fs-1"></i>
+          <i class="bi bi-instagram text-danger fs-1"></i>
+          <i class="bi bi-whatsapp text-danger fs-1"></i>
+      </div>
+    </footer>
 </body>
 </html>
