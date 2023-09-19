@@ -121,89 +121,93 @@
       </div>
 
       <div class="container-fluid d-flex align-items-center justify-content-center">
-        <form action="" class="p-3">
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Nome</span>
-            <input
-              type="text"
-              class="form-control"
-              aria-describedby="basic-addon1"
-              value="Julia Santos"
-            />
+        <form class="container p-3 row g-3">
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu nome" value="Julia Santos">
           </div>
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Email</span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="julia@gmail.com.br"
-              aria-describedby="basic-addon1"
-              disabled
-            />
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="julia@gmail.com.br" disabled>
           </div>
-
-          <div class="input-group mb-1">
-            <span class="input-group-text">Senha</span>
-            <input type="text" class="form-control" placeholder="******" disabled>
-            <button class="input-group-text"><i class="bi bi-eye-slash"></i></button>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Senha</label>
+            <div class="input-group mb-3">
+              <input type="password" class="form-control" value="******" disabled aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <button class="input-group-text" id="basic-addon2"><i class="bi bi-eye-slash"></i></button>
+            </div>
           </div>
-
-          <div class="mb-3">
+          <div class="col-12">
             <a href="" class="link-danger">Esqueci minha senha</a>
           </div>
 
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">RG</span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="mg-12345678"
-              aria-describedby="basic-addon1"
-              disabled
-            />
+          <div class="col-6">
+            <label for="inputAddress" class="form-label">CPF</label>
+            <input type="text" class="form-control" id="inputAddress" value="123-456-789-01" disabled>
+          </div>
+          <div class="col-6">
+            <label for="inputAddress" class="form-label">RG</label>
+            <input type="text" class="form-control" id="inputAddress" value="MG-00.000.000" disabled>
           </div>
 
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">CPF</span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="123.456.789-10"
-              aria-describedby="basic-addon1"
-              disabled
-            />
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu endereço" value="Rua das Flores, 123">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Endereço 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Digite outro endereço">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Digite sua cidade" value="Belo Horizonte">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Estado</label>
+            <select id="inputState" class="form-select">
+              <option selected>MG</option>
+              <option>RJ</option>
+              <option>SP</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Dogote seu CEP" value="00000000">
           </div>
 
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Endereço</span>
-            <input
-              type="text"
-              class="form-control"
-              aria-describedby="basic-addon1"
-              value="Rua das Flores, 123"
-            />
+          <div class="col-12">
+            <label for="inputZip" class="form-label">Telefone</label>
+            <input type="text" class="form-control" id="inputZip" placeholder="Dogote seu CEP" value="(31) 90000-0000">
           </div>
 
-          <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">Telefone</span>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="(31) 9 9999-9999"
-              aria-describedby="basic-addon1"
-              value="(31) 9 9999-9999"
-            />
-          </div>
-  
-          <div class="mb-3">
-            <a class="btn btn-danger container-fluid" href="" role="button"
-              >Atualizar</a
-            >
+          <div class="col-12">
+            <button type="submit" class=" btn btn-danger py-1 fs-5">Atualizar</button>
           </div>
         </form>
       </div>
 
       
+    </section>
+
+    <div class="container my-5 d-flex align-items-center justify-content-center">
+      <hr class="w-50" />
+      <h3 class="mx-5 text-center">Seus Planos</h3>
+      <hr class="w-50" />
+    </div>
+
+    <section class="container-fluid d-flex align-items-center justify-content-center">
+          <div class="card h-100 bg-danger">
+            <i class="bi bi-bookmark-star d-flex align-items-center justify-content-center display-1 text-light p-5"></i>
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-light">Plano VIP</h5>
+              <p class="card-text text-light">R$ 99,99 Mensal</p>
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item text-light bg-danger">Acesso a todos os recursos</li>
+                <li class="list-group-item text-light bg-danger">Suporte 24h</li>
+                <li class="list-group-item text-light bg-danger">Entrega na sua casa</li>
+              </ul>
+              <button class="btn btn-light text-danger mt-3">Conferir</button>
+            </div>
     </section>
   </body>
 </html>
